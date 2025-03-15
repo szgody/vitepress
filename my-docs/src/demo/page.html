@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>&#x8fd9;&#x662f;&#x6587;&#x7ae0;&#x7684;&#x6807;&#x9898;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <hr>
+<h1 id="这是文章的标题">这是文章的标题</h1>
+<p>title: 页面配置</p>
+<h1 id="你可以自定义封面图片">你可以自定义封面图片</h1>
+<p>cover: /assets/images/cover1.jpg</p>
+<h1 id="这是页面的图标">这是页面的图标</h1>
+<p>icon: file</p>
+<h1 id="这是侧边栏的顺序">这是侧边栏的顺序</h1>
+<p>order: 3</p>
+<h1 id="设置作者">设置作者</h1>
+<p>author: Ms.Hope</p>
+<h1 id="设置写作时间">设置写作时间</h1>
+<p>date: 2020-01-01</p>
+<h1 id="一个页面可以有多个分类">一个页面可以有多个分类</h1>
+<p>category:</p>
+<ul>
+<li>使用指南</li>
+</ul>
+<h1 id="一个页面可以有多个标签">一个页面可以有多个标签</h1>
+<p>tag:</p>
+<ul>
+<li>页面配置</li>
+<li>使用指南</li>
+</ul>
+<h1 id="此页面会在文章列表置顶">此页面会在文章列表置顶</h1>
+<p>sticky: true</p>
+<h1 id="此页面会出现在星标文章中">此页面会出现在星标文章中</h1>
+<p>star: true</p>
+<h1 id="你可以自定义页脚">你可以自定义页脚</h1>
+<p>footer: 这是测试显示的页脚</p>
+<h1 id="你可以自定义版权信息">你可以自定义版权信息</h1>
+<h2 id="copyright-无版权">copyright: 无版权</h2>
+<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
+<!-- more -->
+<h2 id="1-页面标题">1. 页面标题</h2>
+<p>The first H1 title in Markdown will be regarded as page title.</p>
+<p>Markdown 中的第一个 H1 标题会被视为页面标题。</p>
+<p>你可以在 Markdown 的 Frontmatter 中设置页面标题。</p>
+<pre><code class="language-md">---
+<span class="hljs-section">title: 页面标题
+---</span>
+</code></pre>
+<h2 id="2-页面信息">2. 页面信息</h2>
+<p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
+<ul>
+<li>作者设置为 Ms.Hope。</li>
+<li>写作日期为 2020 年 1 月 1 日</li>
+<li>分类为 “使用指南”</li>
+<li>标签为 “页面配置” 和 “使用指南”</li>
+</ul>
+<h2 id="3-页面内容">3. 页面内容</h2>
+<p>你可以自由在这里书写你的 Markdown。</p>
+<p>::: tip 图片引入</p>
+<ul>
+<li>你可以将图片和 Markdown 文件放置在一起使用相对路径进行引用。</li>
+<li>对于 <code>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code>/</code> 进行引用。</li>
+</ul>
+<p>:::</p>
+<h2 id="4-组件">4. 组件</h2>
+<p>每个 Markdown 页面都会被转换为一个 Vue 组件，这意味着你可以在 Markdown 中使用 Vue 语法：</p>
+<p>{{ 1 + 1 }}</p>
+<!-- markdownlint-disable MD033 -->
+<ul>
+  <li v-for="i in 3">{{ i }}</li>
+</ul>
+<!-- markdownlint-enable MD033 -->
+<p>你也可以创建并引入你自己的组件。</p>
+<MyComponent />
+<script setup>
+import { defineComponent, h, ref } from 'vue';
+
+const MyComponent = defineComponent({
+  setup() {
+    const input = ref('Hello world!');
+    const onInput = (e) => {
+      input.value = e.target.value;
+    };
+
+    return () => [
+      h('p', [
+        h('span','输入: '),
+        h('input', {
+          value: input.value,
+          onInput,
+        }),
+      ]),
+      h('p', [h('span','输出: '), input.value]),
+    ];
+  },
+});
+</script>
+<hr>
+<p>主题包含一些有用的组件。这里是一些例子:</p>
+<ul>
+<li>
+<p>文字结尾应该有深蓝色的 徽章文字 徽章。 <Badge text="徽章文字" color="#242378" /></p>
+</li>
+<li>
+<p>一个卡片:</p>
+<pre><code class="language-component">title: Mr.Hope
+desc: Where there is light, there is hope
+logo: https://mister-hope.com/logo.svg
+link: https://mister-hope.com
+background: rgba(253, 230, 138, 0.15)
+</code></pre>
+</li>
+</ul>
+
+            
+            
+        </body>
+        </html>
